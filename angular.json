@@ -54,7 +54,9 @@
 
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/jquery/dist/js/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/chart.js/dist/js/Chart.bundle.js"              
             ],
             "es5BrowserSupport": true
           },
