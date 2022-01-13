@@ -14,8 +14,8 @@ import currencyFormatter from "currency-formatter";
   styleUrls: ['./reports.component.css']
 })
 export class ReportsComponent implements OnInit {
-  @ViewChild('month') month: ElementRef = null;
-  @ViewChild('year') year: ElementRef = null;
+  @ViewChild('month', { static: true }) month: ElementRef = null;
+  @ViewChild('year', { static: true }) year: ElementRef = null;
   
   expenseTotal: any = 0;
   revenueTotal: any = 0;
